@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Returns the string representation of the float"""
+"""Convert a float to a string representation."""
 
 
 def to_str(n: float) -> str:
-    """Returns the string representation of the float"""
+    """convert float to string"""
     return str(n)

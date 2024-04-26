@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Sum a list of floats using annotations"""
+"""Calculate the sum of all the elements in the input list."""
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """Return sum of list of floats"""
+    """sum all int in a List"""
     return sum(input_list)

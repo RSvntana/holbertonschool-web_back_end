@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Returns the floor of a float"""
-import math
+"""Returns the floor value of a given float number."""
 
 
 def floor(n: float) -> int:
-    """Returns the floor of a float"""
-    return int(math.floor(n))
+    """ convert float to int"""
+    return int(n)

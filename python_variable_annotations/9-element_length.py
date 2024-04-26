@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
-"""Quack goe the duck type
- _
-<(o )___
-   (  ._> /
-    `---'
-      J
-     """
-from typing import Iterable, Sequence, Tuple, List
+"""Calculate the length of each element in the given list."""
+from typing import Iterable, Sequence, List, Tuple
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    """duck typing an iterable"""
+    """ just check funcion"""
     return [(i, len(i)) for i in lst]

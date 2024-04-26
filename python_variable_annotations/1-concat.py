@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""concats tow strings using TYpeannotaions"""
+"""Concatenates two strings together."""
 
 
 def concat(str1: str, str2: str) -> str:
-    """concat tow strings"""
+    """concat to strings"""
     return str1 + str2
